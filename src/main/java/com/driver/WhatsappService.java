@@ -29,11 +29,11 @@ public class WhatsappService {
         return whatsappRepository.changeAdmin(approver, user, group);
     }
 
-    public int removeUser(User user) throws Exception {
-        return whatsappRepository.removeUser(user);
-    }
-
-    public String findMessage(Date start, Date end, int k) throws Exception {
-        return whatsappRepository.findMessage(start, end, k);
-    }
+//    public int removeUser(User user) throws Exception {
+//        return whatsappRepository.removeUser(user);
+//    }
+//
+//    public String findMessage(Date start, Date end, int k) throws Exception {
+//        return whatsappRepository.findMessage(start, end, k);
+//    }
 }
